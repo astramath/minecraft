@@ -740,7 +740,7 @@ function kyri.new(title, options)
 
     task.spawn(function()
         local url = "https://raw.githubusercontent.com/astramath/minecraft/refs/heads/main/newmade.png"
-        local path = "blankhub.png"
+        local path = "logoo.png"
 
         if not isfile(path) then
             local success, data = pcall(function()
