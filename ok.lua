@@ -739,7 +739,7 @@ function kyri.new(title, options)
     local loaded = false
 
     task.spawn(function()
-        local url = "https://raw.githubusercontent.com/astramath/minecraft/refs/heads/main/yay.png"
+        local url = "https://raw.githubusercontent.com/astramath/minecraft/refs/heads/main/newmade.png"
         local path = "blankhub.png"
 
         if not isfile(path) then
