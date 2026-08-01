@@ -17,31 +17,31 @@ kyri.svc = {
 
 -- [[ UPDATED THEME – pure black base ]]
 kyri.theme = {
-    bg       = Color3.new(0,0,0),
-    container= Color3.fromRGB(5,5,5),
-    element  = Color3.fromRGB(10,10,10),
-    hover    = Color3.fromRGB(18,18,18),
-    active   = Color3.fromRGB(22,22,22),
-    accent   = Color3.fromRGB(138,116,249),
-    text     = Color3.fromRGB(245,245,250),
-    subtext  = Color3.fromRGB(165,165,180),
-    border   = Color3.fromRGB(25,25,25),
+bg       = Color3.fromRGB(6,8,14),
+container= Color3.fromRGB(10,14,22),
+element  = Color3.fromRGB(16,20,32),
+hover    = Color3.fromRGB(22,28,44),
+active   = Color3.fromRGB(26,34,52),
+accent   = Color3.fromRGB(80,160,255),
+text     = Color3.fromRGB(240,245,255),
+subtext  = Color3.fromRGB(140,160,200),
+border   = Color3.fromRGB(24,32,50),
 }
 
 kyri.presets = {
-    ["kyri"] = {
-        bg = Color3.new(0,0,0), container = Color3.fromRGB(5,5,5),
-        element = Color3.fromRGB(10,10,10), hover = Color3.fromRGB(18,18,18),
-        active = Color3.fromRGB(22,22,22), accent = Color3.fromRGB(138,116,249),
-        text = Color3.fromRGB(245,245,250), subtext = Color3.fromRGB(165,165,180),
-        border = Color3.fromRGB(25,25,25),
-    },
-    ["midnight"] = {
+    ["default"] = {
         bg = Color3.fromRGB(6,8,14), container = Color3.fromRGB(10,14,22),
         element = Color3.fromRGB(16,20,32), hover = Color3.fromRGB(22,28,44),
         active = Color3.fromRGB(26,34,52), accent = Color3.fromRGB(80,160,255),
         text = Color3.fromRGB(240,245,255), subtext = Color3.fromRGB(140,160,200),
         border = Color3.fromRGB(24,32,50),
+    },
+    ["purple"] = {
+        bg = Color3.new(0,0,0), container = Color3.fromRGB(5,5,5),
+        element = Color3.fromRGB(10,10,10), hover = Color3.fromRGB(18,18,18),
+        active = Color3.fromRGB(22,22,22), accent = Color3.fromRGB(138,116,249),
+        text = Color3.fromRGB(245,245,250), subtext = Color3.fromRGB(165,165,180),
+        border = Color3.fromRGB(25,25,25),
     },
     ["rose"] = {
         bg = Color3.fromRGB(12,8,10), container = Color3.fromRGB(18,12,16),
